@@ -1,0 +1,83 @@
+/* temples.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+
+header {
+  background-color: #004466;
+  color: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#menu {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #006699;
+}
+
+nav ul.show {
+  display: flex;
+}
+
+main {
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+}
