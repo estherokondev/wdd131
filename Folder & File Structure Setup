@@ -1,0 +1,9 @@
+wdd131/
+├── temples.html
+├── scripts/
+│   └── temples.js
+├── styles/
+│   ├── temples.css
+│   └── temples-large.css
+└── images/
+    └── temple1.jpg, temple2.jpg, ...
